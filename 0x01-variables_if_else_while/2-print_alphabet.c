@@ -10,7 +10,8 @@ while (c <= 'z')
 {
 		putchar(c);
 		c++;
-		c++;
+
 }
+c++;
 	return (0);
 }
