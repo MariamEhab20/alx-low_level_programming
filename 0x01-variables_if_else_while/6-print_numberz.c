@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int digitt = 0;
+	int digit = 0;
 
 	while (digit <= 9)
 	{
