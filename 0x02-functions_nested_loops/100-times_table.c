@@ -16,7 +16,7 @@ int prod, mult, num;
 	{
 		_putchar(48);
 
-		for(mult = 1; mult <= n; ++mult)
+		for (mult = 1; mult <= n; ++mult)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -25,9 +25,9 @@ int prod, mult, num;
 			if (prod <= 9)
 				_putchar(' ');
 					if (prod <= 99)
-					
+
 					_putchar (' ');
-						if (prod >= 100)
+					if (prod >= 100)
 			{
 				_putchar ((prod / 100) + 48); 
 				_putchar ( (prod / 10) % 10 + 48);
