@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ *print_times_table - prints time table of n
+ *@n: takes number input
  */
 
 
@@ -27,7 +27,7 @@ int prod, mult, num;
 					if (prod <= 99)
 
 					_putchar (' ');
-	if (prod >= 100)
+						if (prod >= 100)
 			{
 				_putchar ((prod / 100) + 48);
 				_putchar ((prod / 10) % 10 + 48);
