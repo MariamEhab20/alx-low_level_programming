@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: Prints the sum of even-valued
@@ -18,8 +19,8 @@ int main(void)
 			break;
 
 		if ((sum % 2) == 0)
-			total_Sum += sum;
-		fibi = fib2;
+			total_sum += sum;
+		fib1 = fib2;
 		fib2 = sum;
 	}
 	printf ("%.0f\n", total_sum);
