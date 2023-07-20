@@ -6,7 +6,8 @@
  */
 
 int main(void)
-{int i;
+{
+	int i;
 
 	printf("Infinite loop inconing : (\n");
 
