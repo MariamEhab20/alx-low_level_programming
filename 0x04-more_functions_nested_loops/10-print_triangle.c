@@ -2,9 +2,9 @@
 
 /**
  * print_triangle - prints a triangle, followed by a new line
- * @sixe: size of the triangle
+ * @size: size of the triangle
  */
-void print_trianglr(int size)
+void print_triangle(int size)
 {
 	if (size <= 0)
 	{
