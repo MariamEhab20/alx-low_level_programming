@@ -29,7 +29,7 @@ int main(void)
 			priintf(" %d", i);
 		}
 	}
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
