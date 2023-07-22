@@ -8,4 +8,4 @@ int largest number(int a, int b, int c);
 int convert day (int month, int day) :
 void print_remaining days (int month, int day,int year);
 
-#endif /* MAIN_H */
+#endif
