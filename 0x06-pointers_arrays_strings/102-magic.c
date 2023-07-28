@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int n, a[S], *p;
+	int n, a[5], *p;
 
 	a[2] = 1024;
 	p = &n;
